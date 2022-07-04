@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #090B1A;
+    color: white;
+
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1080px;
+    height: 446px;
+    background-color: #1B1938;
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 446px;
+}
+
+#texto-centrado{
+    width: 400px;
+    height: 317px;
+}
+.texto h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.texto #texto-centrado span{
+    color: #AB23DA;
+}
+
+.texto #parrafo{
+    width: 355px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0px 0px 30px 0px;
+}
+
+
+.number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 355px;
+    height: 100px;
+}
+
+.number div h2{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+
+.number div p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* aside foto */
+
+.foto{
+    background-image: url(images/image-header-desktop.jpg);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50%;
+    height: 446px;
+    
+}
+
+.foto #color{
+    background-color: #AB23DA;
+    opacity: 0.5;
+    width: 540px;
+    height: 446px;
+}
+
+
+
+
+    /* MEDIAQUERIES */
+
+
